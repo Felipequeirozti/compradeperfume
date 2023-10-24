@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,800;1,9..144,900&family=Montserrat:ital,wght@1,500&display=swap');
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: hsl(30, 38%, 92%);
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+main{
+    padding: 150px;
+    display: flex;
+}
+
+.Bloco{
+    width: 300px;
+    height: 500px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 10px 0 10px;
+    
+}
+
+.Perfume{
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 15px;
+    padding: 30px;
+}
+
+.Principal{ 
+    padding-left: 30px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: hsl(212, 21%, 14%);
+}
+
+.p2{
+    padding-left: 30px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: hsl(212, 21%, 14%);
+}
+
+.p3{
+    padding-left: 30px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: hsl(212, 21%, 14%);
+}
+
+.Descrição{
+    padding-top: 30px;
+    color: hsl(228, 12%, 48%);
+    font-size: 15px;
+    padding-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.pr1{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
+    padding-left: 30px;
+    display: inline;
+    color: hsl(158, 36%, 37%)
+}
+.pr2{
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 30px;
+    text-decoration: line-through;
+    display: inline;
+    color: hsl(228, 12%, 48%);
+   
+}
+
+.botao{
+    padding: 30px;
+    padding-bottom: 64px;
+
+}
+
+button{
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    background-color:hsl(158, 36%, 37%) ;
+    width:250px;
+    height: 64px;
+    border-radius: 20px; 
+    color: #FFF;
+
+}
+
+.Parf{
+    border-radius: 10px 0 0 10px;
+}
